@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: darksalmon;
+    font-family: 'Limelight', cursive;
 }
 
 .menu {
@@ -9,6 +10,7 @@ body {
     top: 10px;
     right: 30px;
     cursor: pointer;
+    z-index: inherit;
 }
 
 .link {
@@ -21,6 +23,8 @@ body {
 
 .link:hover {
     background-color: aqua;
+    font-size: 20px;
+    font-family:cursive;
 }
 
 #about {
